@@ -1,0 +1,11 @@
+package pl.tomaszosuch.gpstracker;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GpsTrackerApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(GpsTrackerApplication.class, args);
+    }
+}
